@@ -299,6 +299,12 @@ class KitchenHingeSlideBottomLeftBurnerLightV0(KitchenBase):
 class KitchenKettleV0(KitchenBase):
     TASK_ELEMENTS = ["kettle"]
     REMOVE_TASKS_WHEN_COMPLETE = True
+class KitchenHingeV0(KitchenBase):
+    TASK_ELEMENTS = ["hinge cabinet"]
+    REMOVE_TASKS_WHEN_COMPLETE = True
+class KitchenSlideV0(KitchenBase):
+    TASK_ELEMENTS = ["slide cabinet"]
+    REMOVE_TASKS_WHEN_COMPLETE = True
 
 class KitchenMicrowaveV0(KitchenBase):
     TASK_ELEMENTS = ["microwave"]
